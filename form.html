@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+    <html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+
+<form action="#" method="post"> 
+<h1 style="text-align: center;">Sing Up Form</h1>
+<hr>
+
+
+<!--Name input-->
+<label for="Name">Name :</label>
+<input type="text" id="Name" name="username" placeholder="Username">
+<!--Name input close-->
+<br> <br>
+
+
+<!--Email Input-->
+<label for="email">Email :</label>
+<input type="email" id="email" name="email" placeholder="Useremail">
+<!--Email input close-->
+<br> <br>
+
+<!--Password input-->
+<label for="Pass">Password</label>
+<input type="Password" id="Pass" name="Password" placeholder="Password">
+<!--Password input close-->
+<br><br>
+
+
+<!--Number input-->
+<label for="phn">Phone :</label>
+
+<select name="code">
+    <option value="+880">+880</option>
+    <option value="+990">+990</option>
+    <option value="+110">+110</option>
+</select>
+<input type="number" id="phn" name="number" placeholder="1234567879">
+<!--Number input close-->
+<br> <br>
+
+
+
+<!--Country start-->
+<label for="country"> Country :</label>
+<input list="country">
+<datalist id="country">
+    <option value="Bangladesh"></option>
+    <option value="India"></option>
+    <option value="England"></option>
+</datalist>
+<!--Country close-->
+<br><br>
+
+
+
+<!-- Gender input-->
+ Gender :
+ <input type="radio" id="gender1" name="gender">
+ <label for="gender1">Male</label>
+
+ <input type="radio" id="gender2" name="gender">
+ <label for="gender2" >Female</label>
+ <!--Gender close-->
+<br> <br>
+
+<!--Date of Birth start-->
+<label for="date">Date of Birth :</label>
+<input type="date" id="date" name="dob">
+<!--Date of Birth close-->
+<br><br>
+
+<!--Time start-->
+<label for="time">Time :</label>
+<input type="time" id="time" name="time">
+<!--TIme close-->
+<br><br>
+
+<!--colors start-->
+<label for="color">Colors :</label>
+<input type="color" id="color" name="color">
+<!--color close-->
+<br><br>
+
+<!--Photo start-->
+<label>choose Photo : </label>
+<input type="file" name="photo">
+<!--Photo close-->
+<br><br>
+
+<!--Choose start-->
+<input type="checkbox" id="vehicle1" name="vec">
+<label for="vehicle1">I have Bike</label>
+
+<input type="checkbox" id="vehicle2" name="vec">
+<label for="vehicle2">I have Bycycle</label>
+<!--Choose Close-->
+<br><br>
+
+
+<!--Commentbox start-->
+<textarea name="comment" placeholder="Comment here"></textarea>
+<!--Commentbox -->
+<br>
+
+
+<!--submit & Reset start-->
+<input type="submit" value="Sent">
+<input type="reset" value="Reset">
+<!--submit & Reset close-->
+
+</form> 
+</body>
+</html>
